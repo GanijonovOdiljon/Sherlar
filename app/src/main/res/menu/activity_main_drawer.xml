@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single" >
+        <item
+            android:id="@+id/asosiy"
+            android:icon="@drawable/baseline_menu_24"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/saqlash"
+            android:icon="@drawable/baseline_favorite_border_24"
+            android:title="@string/menu_gallery"
+            />
+        <item
+            android:id="@+id/tilbtn"
+            android:icon="@drawable/baseline_post_add_24"
+            android:title="Kitobdan tashqari" />
+        <item
+            android:id="@+id/dastur"
+            android:icon="@drawable/baseline_info_24"
+            android:title="@string/menu_slideshow2" />
+    </group>
+</menu>

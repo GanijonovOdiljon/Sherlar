@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Sherlar2</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="sher">sherlar</string>
+
+    <string name="menu_home">Asosiy</string>
+    <string name="menu_gallery">Saqlanganlar</string>
+    <string name="menu_slideshow">Tilni o\'zgartirish</string>
+    <string name="menu_slideshow2">Dastur haqida</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="diydor1">Mushkulim borida tog’ bo’lgan jo’ra
+Yaqinsiz siz menga har kimdan ko’ra
+Oqibat yo’qolib endi bir yo’la
+Diydorni unutib qo’ymayabmizmi
+
+Sevinch yoshlariga to’lib bu ko’zlar
+Bolalik onidan bir ertak so’zlar
+Riyoga berilib endi ey do’stlar
+Diydorni unutib qo’ymayabmizmi
+
+Yelkadosh do’stlarim ey ulfatlarim
+Bugun bu maydonda holimiz yarim
+Ko’rinib turing ey endi jigarim
+Diydorni unutib qo’ymayabmizmi
+
+Intizor ko’ngilni intizor etib
+Musofir yurtlarga qolibsiz ketib
+Do’stingiz oldiga tez keling yetib
+Diydorni unutib qo’ymayabmizmi
+
+Sher bo’lib men mardman deying mayli ho’p
+Siz uchun savollar keragidan ko’p
+Bir bora jigarlar bo’ling endi to’p
+Diydorni unutib qo’ymayabmizmi
+</string>
+</resources>

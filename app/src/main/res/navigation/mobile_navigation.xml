@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/asosiy">
+
+    <fragment
+        android:id="@+id/asosiy"
+        android:name="com.example.sherlar2.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_asosiy_to_SHerFragment"
+            app:destination="@id/SHerFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/saqlash"
+        android:name="com.example.sherlar2.ui.gallery.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/tilbtn"
+        android:name="com.example.sherlar2.ui.slideshow.SlideshowFragment"
+        android:label="Kitobdan tashqari"
+        tools:layout="@layout/fragment_slideshow" >
+
+        <action
+            android:id="@+id/action_tilbtn_to_ikkinchiSlideFragment"
+            app:destination="@id/ikkinchiSlideFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/dastur"
+        android:name="com.example.sherlar2.InfoFragment"
+        android:label="fragment_info"
+        tools:layout="@layout/fragment_info" />
+    <fragment
+        android:id="@+id/SHerFragment"
+        android:name="com.example.sherlar2.SHerFragment"
+        android:label="fragment_s_her"
+        tools:layout="@layout/fragment_s_her" />
+    <fragment
+        android:id="@+id/ikkinchiSlideFragment"
+        android:name="com.example.sherlar2.ui.slideshow.IkkinchiSlideFragment"
+        android:label="fragment_ikkinchi_slide"
+        tools:layout="@layout/fragment_ikkinchi_slide" >
+
+        <action
+            android:id="@+id/action_ikkinchiSlideFragment_to_sevgiFragment"
+            app:destination="@id/sevgiFragment" />
+        <action
+            android:id="@+id/action_ikkinchiSlideFragment_to_sogindimFragment"
+            app:destination="@id/sogindimFragment" />
+        <action
+            android:id="@+id/action_ikkinchiSlideFragment_to_maktab"
+            app:destination="@id/maktab" />
+        <action
+            android:id="@+id/action_ikkinchiSlideFragment_to_dostlik"
+            app:destination="@id/dostlik" />
+    </fragment>
+    <fragment
+        android:id="@+id/slideSherFragment"
+        android:name="com.example.sherlar2.ui.slideshow.SlideSherFragment"
+        android:label="fragment_slide_sher"
+        tools:layout="@layout/fragment_slide_sher" />
+    <fragment
+        android:id="@+id/sevgiFragment"
+        android:name="com.example.sherlar2.ui.slideshow.SevgiFragment"
+        android:label="SevgiFragment" >
+        <action
+            android:id="@+id/action_sevgiFragment_to_SHerFragment"
+            app:destination="@id/SHerFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/sogindimFragment"
+        android:name="com.example.sherlar2.ui.slideshow.SogindimFragment"
+        android:label="fragment_sogindim"
+        tools:layout="@layout/fragment_sogindim" >
+        <action
+            android:id="@+id/action_sogindimFragment_to_SHerFragment"
+            app:destination="@id/SHerFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/maktab"
+        android:name="com.example.sherlar2.ui.slideshow.Maktab"
+        android:label="fragment_maktab"
+        tools:layout="@layout/fragment_maktab" >
+        <action
+            android:id="@+id/action_maktab_to_SHerFragment"
+            app:destination="@id/SHerFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/dostlik"
+        android:name="com.example.sherlar2.ui.slideshow.Dostlik"
+        android:label="fragment_dostlik"
+        tools:layout="@layout/fragment_dostlik" >
+        <action
+            android:id="@+id/action_dostlik_to_SHerFragment"
+            app:destination="@id/SHerFragment" />
+    </fragment>
+</navigation>

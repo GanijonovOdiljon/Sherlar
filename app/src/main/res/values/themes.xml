@@ -1,0 +1,26 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Sherlar2" parent="Theme.MaterialComponents.Light.NoActionBar"><item name="colorPrimary">#E98A1C1C</item>
+        <item name="colorPrimaryVariant">#E98A1C1C</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">#E9F3B4B4</item>
+        <item name="colorSecondaryVariant">#E98A1C1C</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">#E98A1C1C</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="Theme.Sherlar2.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="circle">
+        <item name="cornerSize">50%</item>
+    </style>
+
+    <style name="Theme.Sherlar2.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.Sherlar2.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>
